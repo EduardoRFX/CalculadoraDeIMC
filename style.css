@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background: rgba(62, 22, 70, 0.5);
+}
+
+.github-logo{
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container {
+    background-color: rgb(24, 207, 231);
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin-left: 420px;
+    box-shadow: 10px 10px 5px ;
+}
+
+.Genero {
+    width: 200px;
+    height: 100px;
+    display: inline-flex;
+
+}
+
+.masculino p{
+    width: 60px;
+    height: 60px;
+
+}
+
+.feminino {
+
+    margin-left: 60px;
+}
+
+h3 {
+    font-weight: 400;
+} 
+
+.feminino input {
+    margin: 3px 3px 3px 4px;
+
+}
+
+
+/* .container {
+    display: inline-block;
+} 

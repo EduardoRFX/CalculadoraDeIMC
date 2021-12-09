@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+        <div class="page-title">
+            <h1>Calculadora de IMC</h1>
+        </div>
+        <div class="Genero">
+            <div class="masculino">
+                <input type="checkbox" class="masculino" id="masculino" placeholder="Masculino"/><p>Masculino</p>
+            </div>
+            <div class="feminino">    
+                <input type="checkbox" class="feminino" id="feminino" placeholder="Feminino"/><p>Feminino</p>
+            </div>
+        </div>
+        <div class="calcular">
+            <div class="informacoes">
+                <input type="text" class="nome" id="nome" placeholder="Digitie sua Nome!" />
+                <input type="number" class="altura" id="altura" placeholder="Digitie sua Altura!" />
+                <input type="number" class="peso" id="peso" placeholder="Digitie seu Peso!" />
+            </div>
+            <br>
+            <div class="botao">
+                <button onclick="Calcular()">Calcular</button>
+            </div>
+        </div>
+        <h3 id="resultado"><h3>
+    </div>
+
+    <a href="http:github.com/EduardoRFX" target="_blank"><img src="img/github-logo_5.png" alt="github-logo" class="github-logo"></a>
+
+   <script src="index.js"></script> 
+</body>
+</html>
